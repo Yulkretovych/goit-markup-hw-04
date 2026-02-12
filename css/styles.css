@@ -383,15 +383,47 @@ font-weight: 700;
     display: block;
     margin-bottom: 16px;
 }
-
 .footer-hero {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.footer-hero .container {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
+.footer-socials-container {
+    display: flex;
+}
+
 .footer-hero .descr {
     color: #f4f4fd;
     width: 264px;
-
 }
+
+.footer-socials-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    height: 24px;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social-list-footer {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+ 
+
